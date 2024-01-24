@@ -14,7 +14,8 @@ Silahkan ikuti langkah-langkah di bawah setelah and melakukan clone repository u
 
 - Jalankan command composer install
 - Buat Database baru di environtment lokal anda
-- Sesuaikan koneksi dengan database MySQL anda pada file .env
+- Copy file .env.example dan renam menjadi .env, lalu sesuaikan koneksi dengan database MySQL anda pada file .env
+- Jalankan command php artisan key:generate
 - Jalankan command php artisan migrate:fresh --seed
 - Jalankan command php artisan serve
 - Setelah muncul info Server running, buka di browser anda dan masukkan url seperti 
